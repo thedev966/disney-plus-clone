@@ -1,8 +1,8 @@
-import { configureStore } from '@reduxjs/toolkit';
-import counterReducer from '../features/counter/counterSlice';
+import { configureStore } from "@reduxjs/toolkit";
+import mediaReducer from "../features/mediaSlice";
 
 export const store = configureStore({
   reducer: {
-    counter: counterReducer,
+    media: mediaReducer,
   },
 });
